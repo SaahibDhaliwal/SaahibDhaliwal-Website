@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/0f93e3000d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body id="homepage">
+    <!-- Creating the nav -->
+    <nav class="navbar">
+      <!-- The logo div contains icon and title -->
+      <div class="logo">
+        <!-- Icon first -->
+        <div>
+          <a href="index.html">
+            <img class="icon" src="images/output-onlinepngtools (2).png" alt=""
+          /></a>
+        </div>
+        <!-- Name second, wrapped in an "a-tag" because its going to be a link -->
+        <a href="index.html" id="navbar__logo"> Saahib's Space </a>
+      </div>
+      <!-- The ul contains all of our navbar links as each link is an li -->
+      <ul class="navbar-links">
+        <li class="nav-item">
+          <a href="index.html" class="navbar__links">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="projects.html" class="navbar__links">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a href="fitness.html" class="navbar__links">Fitness</a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="button">Contact Me</a>
+        </li>
+      </ul>
+      <!-- This div is the "hamburger-style" menu -->
+      <div class="menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+
+    <!-- Contact Me-->
+    <section class="contact">
+    <div class="contact-head">
+        <h2>Contact Me</h2>
+        <p>Don't be afraid to reach out. I appreciate all messages!</p>
+    </div>
+    <div class="contact-container">
+        <div class="contact-info">
+            <div class="contact-box">
+                <div class="contact-img"><i class="fa-solid fa-envelope"></i></div>
+                <div class="contact-text" id="email-box">
+                    <h3>Email</h3>
+                    <p id="email">saahibdeep333<br id="break">@gmail.com</p>
+                </div> 
+            </div>
+                <div class="contact-box" >
+                    <div class="contact-img"><a href="/"><i class="fa fa-linkedin"></i></a></div>
+                    <div class="contact-text">
+                        <h3>LinkedIn</h3>
+                        <p>Saahibdeep Dhaliwal</p>
+                    </div>
+                </div>
+
+        </div>
+        <div class="contact-form">
+            <form id="contactForm" method="post" action="contact-form-handle.php">
+                <h2>Send Message</h2>
+                <div class="input">
+                    <input type="text" name="input" required="required">
+                    <span>Name</span>
+             
+                </div>
+                <div class="input">
+                    <input type="text" name="email" required="required">
+                    <span>Email</span>
+                </div>
+                <div class="input">
+                    <textarea name="message" required="required"></textarea>
+                    <span>Message</span>
+                </div>
+                <div class="input">
+                    <input type="submit" name="" value="Send">
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+    <!-- Footer-->
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <a href="#">
+            <img class="icon" src="images/output-onlinepngtools (2).png" alt=""
+          /></a>
+          <h3>SAAHIB'S SPACE</h3>
+        </div>
+        <p>Hope you enjoyed your stay in my space on the internet!</p>
+        <ul class="social-media">
+          <li>
+            <a href="/"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="/"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="/"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="/"><i class="fa fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="/"><i class="fa fa-github"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-base">
+        <p>
+          copyright &copy;2022 Saahib's Space. designed by
+          <span>Saahibdeep Dhaliwal</span>
+        </p>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

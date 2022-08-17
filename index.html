@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/0f93e3000d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body id="homepage">
+    <!-- Creating the nav -->
+    <nav class="navbar">
+      <!-- The logo div contains icon and title -->
+      <div class="logo">
+        <!-- Icon first -->
+        <div>
+          <a href="index.html">
+            <img class="icon" src="images/output-onlinepngtools (2).png" alt=""
+          /></a>
+        </div>
+        <!-- Name second, wrapped in an "a-tag" because its going to be a link -->
+        <a href="index.html" id="navbar__logo"> Saahib's Space </a>
+      </div>
+      <!-- The ul contains all of our navbar links as each link is an li -->
+      <ul class="navbar-links">
+        <li class="nav-item">
+          <a href="index.html" class="navbar__links">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="projects.html" class="navbar__links">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a href="fitness.html" class="navbar__links">Fitness</a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="button">Contact Me</a>
+        </li>
+      </ul>
+      <!-- This div is the "hamburger-style" menu -->
+      <div class="menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    <!-- Hero/intro section for the webpage-->
+    <div class="main">
+      <div class="main-container">
+        <div class="main-content">
+          <div class="text">
+          <h1>Introducing</h1>
+          <h2>Yours truly...</h2>
+        </div>
+          <button class="main-btn" id="main-button"><a href="#">SHOW ME! </a></button>
+        </div>
+       <div class="intro-section">
+        <div class="introduce"> 
+          <h1 class = "intro-name"> Hey, I am <strong>Saahib Dhaliwal</strong></h1>
+          <p class="intro-title">Computer Science Student</p>
+          <button class="main-btn" id="buttontwo"><a href="#">HIDE ME! </a>
+          </button>
+        <div class="img-container">
+          <img src="images/IMG_0153_2.svg" alt="" id="main-img" />
+        </div>
+      </div>
+      </div>
+    </div>
+
+      <!-- About me section-->
+      <div class="about-me">
+        <div class="about-heading"><h1>Learn about me</h1></div>
+        <div class="about-container">
+          <div class="intro">
+            <p>
+              Hey, its me, the creator of this website! My full name is
+              Saahibdeep Dhaliwal, however, I also go by Saahib or even Sal. If
+              you have not already, you can see what I look like by clicking the
+              awesome 'SHOW ME' button!
+            </p>
+          </div>
+          <div class="school">
+            <h2><i class="fas fa-user-graduate"></i> EDUCATION</h2>
+            <p>
+              I am currently a student at the University of Waterloo. I will be
+              going into my second year this fall and I am in the Computer
+              Science, Honours, Co-operative Program. I will be graduating in
+              2026 with a Bachelor's degree in Computer Science.
+            </p>
+            <div class="school-logo">
+              <img
+                src="/images/UniversityOfWaterloo_logo_horiz_bk.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="work">
+            <h2><i class="fa-solid fa-briefcase"></i> WORK</h2>
+            <p>
+              I am currently working part-time at my local grocery store, Zehrs.
+              I have been working there since April 2020 and even worked
+              part-time through my first year of university. At work I handle
+              and put out fresh produce to ensure its availability while also
+              working to satisfy customers and being creative to resolve any
+              issues at hand. Moreover, due to my seniorty and ability to learn
+              qucikly I have also taken on tasks which are uncommon for a
+              part-time worker like changing prices and teaching new hires. This
+              job has improved my customer service skills and enhanced my
+              ability to work and communicate with a team (the rest of the
+              produce staff).
+            </p>
+            <div class="work-logo">
+              <img src="/images/Untitled.svg" alt="" />
+            </div>
+          </div>
+
+          <div class="hobbies">
+            <h2><i class="fa-solid fa-heart"></i> HOBBIES</h2>
+            <p>
+              My main hobby is fitness. For some fitness content visit the
+              <a href="/">fitness</a> page. I have played sports my whole life,
+              mainly ice hockey outside of school sports. I also joined my
+              city's track and field team in the early years of highschool. In
+              elementary school and highschool, I played any sport I could, from
+              football and rugby to volleyball and badminton. Currently, I have
+              a passion for weightlifting and hitting the gym. However, I enjoy
+              any activity where I am being active, this includes running,
+              hiking, biking, and etc.
+            </p>
+            <p class="other-hobby">
+              My other hobby outside of fitness and being active is programming
+              and working on projects. This webiste is an exhbit of this hobby
+              and for more information about my projects check out the
+              <a href="projects.html">projects</a> page
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer-->
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <a href="#">
+            <img class="icon" src="images/output-onlinepngtools (2).png" alt=""
+          /></a>
+          <h3>SAAHIB'S SPACE</h3>
+        </div>
+        <p>Hope you enjoyed your stay in my space on the internet!</p>
+        <ul class="social-media">
+          <li>
+            <a href="/"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="/"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="/"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="/"><i class="fa fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="/"><i class="fa fa-github"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-base">
+        <p>
+          copyright &copy;2022 Saahib's Space. designed by
+          <span>Saahibdeep Dhaliwal</span>
+        </p>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
