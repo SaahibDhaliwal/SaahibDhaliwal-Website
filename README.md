@@ -1,2 +1,2 @@
 # SaahibDhaliwal.github.io
-My personal website
+Hey! This is my very own fully responsive personal website. I created it from scratch using HTML, CSS, JavaScript, and a little bit of PHP.
