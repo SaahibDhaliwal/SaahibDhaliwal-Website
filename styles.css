@@ -598,18 +598,6 @@ body {
   padding-top: 10px;
 }
 
-.intro {
-  background-color: rgba(0, 0, 0, 0.439);
-  color: rgb(216, 210, 210);
-}
-
-.intro p {
-  padding: 20px 0px;
-  font-size: 1.1rem;
-  text-align: center;
-  line-height: 1.5;
-}
-
 /* education section */
 .school {
   position: relative;
