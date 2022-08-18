@@ -14,8 +14,11 @@
     />
     <script
       src="https://kit.fontawesome.com/0f93e3000d.js"
-      crossorigin="anonymous"
+      crossorigin="anonymous" 
     ></script>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+
   </head>
   <body id="homepage">
     <!-- Creating the nav -->
@@ -78,7 +81,7 @@
                 </div>
 
         </div>
-        <div class="contact-form">
+        <div class="contact-form" id="cont-form">
             <form id="contactForm" action="https://formsubmit.co/saahibdeep333@gmail.com" method="POST">
                 <h2>Send Message</h2>
                  <!-- Honey pot-->
@@ -101,7 +104,6 @@
                 </div>
                 <div class="input">
                     <input type="submit" name="" value="Send" onclick="form_submit">
-                    <p id="success-msg">Success!</p>
                   </div>
 
             </form>

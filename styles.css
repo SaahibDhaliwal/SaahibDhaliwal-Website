@@ -1682,11 +1682,6 @@ button {
   display: none;
 }
 
-#success-msg {
-display: none;
-padding-left: 20px;
-animation: fadeIn 0.5s;
-}
 
 @media (max-width: 960px) {
   .contact {
