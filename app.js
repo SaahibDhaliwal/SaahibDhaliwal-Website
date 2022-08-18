@@ -16,6 +16,9 @@ const app = {
       case "fitness":
         app.navSlide();
         app.chestTriList();
+        case "contact":
+        app.navSlide();
+        app.form_submit();
     }
   },
 
@@ -123,9 +126,14 @@ const app = {
     });
   },
 
-
-
-
+  form_submit: () => {
+    const success = document.getElementById("success-msg");
+    success.style.display = "inline";
+    setTimeout(function () {
+      success.style.display = "none";
+    }, 2000);
+  }
 };
 
 app.init();
+
