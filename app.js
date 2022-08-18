@@ -16,9 +16,10 @@ const app = {
       case "fitness":
         app.navSlide();
         app.chestTriList();
+        break;
         case "contact":
         app.navSlide();
-        app.form_submit();
+        break;
     }
   },
 
